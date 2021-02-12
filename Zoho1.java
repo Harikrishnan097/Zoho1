@@ -16,11 +16,16 @@ public class Zoho1 {
 		for (int i= 0 ; i<midafter.length() ;i++)
 		{
 			
-			
+			for (int j=0;j<midafter.length()-i-1;j++)
+			{
+				
+				System.out.print(" ");
+			}
 			
 			char c = midafter.charAt(i) ;
 			
 			b.append(c);
+			
 			
 			
 			System.out.println(b);
