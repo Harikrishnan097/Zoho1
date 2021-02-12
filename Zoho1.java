@@ -33,6 +33,25 @@ public class Zoho1 {
 			
 		}
 		
+		for(int k=0;k<a.length()/2 ; k++)
+		{
+			
+			
+			
+			
+			char d = a.charAt(k);
+			b.append(d);
+			System.out.println(b);
+			
+			for (int j=0;j<a.length()/2-k-1;j++)
+			{
+				
+				System.out.print(" ");
+			}
+		}
+		
+		
+		
 	}
 		
 	}
