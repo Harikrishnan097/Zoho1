@@ -8,7 +8,7 @@ public class Zoho1 {
 		
 		
 		
-		String a= "WELCOME";
+		String a= "WATER";
 		int mid = a.length()/2;
 		String midafter= a.substring(mid);
 		System.out.println(midafter);
@@ -16,7 +16,7 @@ public class Zoho1 {
 		for (int i= 0 ; i<midafter.length() ;i++)
 		{
 			
-			for (int j=0;j<midafter.length()-i-1;j++)
+			for (int j=0;j<midafter.length()-i+1;j++)
 			{
 				
 				System.out.print(" ");
@@ -36,18 +36,18 @@ public class Zoho1 {
 		for(int k=0;k<a.length()/2 ; k++)
 		{
 			
-			
+			for (int j=0;j<a.length()/2-k-1;j++)
+			{
+				
+				System.out.print(" ");
+			}
 			
 			
 			char d = a.charAt(k);
 			b.append(d);
 			System.out.println(b);
 			
-			for (int j=0;j<a.length()/2-k-1;j++)
-			{
-				
-				System.out.print(" ");
-			}
+		
 		}
 		
 		
