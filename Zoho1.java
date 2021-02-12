@@ -1,5 +1,7 @@
 package com.krishnan.arraysum;
 
+import java.util.Scanner;
+
 public class Zoho1 {
 
 	public static void main(String[] args) {
@@ -8,15 +10,21 @@ public class Zoho1 {
 		
 		
 		
-		String a= "WATER";
+		
+		
+		
+		Scanner in = new Scanner(System.in);
+		
+		String a=in.nextLine();
+		
 		int mid = a.length()/2;
 		String midafter= a.substring(mid);
-		System.out.println(midafter);
+		//System.out.println(midafter);
 		StringBuilder b = new StringBuilder();
 		for (int i= 0 ; i<midafter.length() ;i++)
 		{
 			
-			for (int j=0;j<midafter.length()-i+1;j++)
+			for (int j=0;j<midafter.length()-i+2;j++)
 			{
 				
 				System.out.print(" ");
